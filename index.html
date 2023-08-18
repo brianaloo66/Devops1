@@ -1,6 +1,48 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
+    <header id="main-header">
+        <style>
+            #main-header{
+                background-color:coral;
+                color:#fff;
+            }
+
+        </style>
+        <div class="container">
+        <h1>My website</h1>
+      </header>
+      </div>
+      <nav id="navbar">
+        <div class="container">
+        <ul>
+            <li><a href="#">Index.html</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our products</a></li>
+            <li><a href="#">Contact Page</a></li>
+        </ul>
+    </div>
+        </nav>
+        <style>
+            #navbar{
+                background-color:#333;
+                color:#fff;
+            }
+            #navbar ul{
+                padding:0;
+                list-style-type: style none;
+            }
+            #navbar li{
+                display:inline;
+            }
+            #navbar a{
+                color:#ffff;
+                Text-decoration:none;
+                font-size:18px;
+                padding-right:15px;
+            }
+        </style>
+        <section id="showcase">
+            <div class="container">
         <h1>Index.html</h1>
         <body>
             <p>Welcome to our page. We offer quality Graphic designs</p>
@@ -20,40 +62,78 @@
         <h3>Our products</h3>
         <body>
             <p>Have a look at our samples</p>
-            <img src="Birthday design.jpg" alt="Birthday design.jpg" widh="300px" height="200x">
-            <img src="business card.jpg" alt="business card.jpg" widh="200px" height="200x">
+            <img src="Birthday design.jpg" alt="Birthday design.jpg" width="300px" height="200x">
+            <img src="../Web Design Assignment/mock up.jpg" alt="business card.jpg" width="200px" height="200x">
             <img src="POLITICAL POSTERS.jpg" alt="POLITICAL POSTERS.jpg" widh="300px" height="200x">
-            <img src="WEDDING CARD.jpg" alt="WEDDING CARD.jpg" widh="300px" height="200x">   
+            <img src="WEDDING CARD.jpg" alt="WEDDING CARD.jpg" width="300px" height="200x">
+        </section>
+        <style>
+            #showcase h1{
+                color:#fff;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:medium;
+            }
+            #showcase h2{
+                color:#fff;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:medium;
+            }
+            #showcase h3{
+                color:#fff;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:medium;
+            }
+        </style>
+        <style>
+            #showcase p{
+                color:aqua;
+            }
+            #showcase img{
+                width: 300px;
+                height:400px;
+                border-radius: 10px;
+                float: left;
+                margin-right: 10px;
+            }
+        </style>
+        <section id="contact">
+            <div class="container">
         <h4>Contact Page</h4>
         <body>
             <p>If your are intrested in our services, kindly fill the below survey so that we can get back to you</p>
         </body>
-        <h5>Survey form<h/5>
+        <h4>Survey form</h4>
             <body>
                 <ol>
                 <li>What is your name?
-                <form>
+                <form class="my-form">
+                    <div class="form-group">
                     <label for="fname">First name:</label>
-                    <Input type="Text" id="fname" name="fname"><br>
+                    <Input type="Text" id="fname" name="fname"></div><br>
+                        <div class="form-group">
                         <label for="lname">Last name:</label>
                         <Input type="Text" Id="lname" name="lname">
+                        </div>
                 </form>
                </body>
                <body><br>
                 <li>which language do you best understand?
-                <form>
+                <form class="my-form">
+                    <div class="form-group">
                     <input type="radio" id="English" name="fav_language" Value="English"
-                    <label for="English">English</label><br>
+                    <label for="English">English</label><br></div>
+                    <div class="form-group">
                         <input type="radio" id="Spanish" name="fav_language" Value="Spanish"
-                        <label for="Spanish">Spanish</label><br>
+                        <label for="Spanish">Spanish</label><br></div>
+                        <div class="form-group">
                         <input type="radio" id="French" name="fav_language" Value="French"
-                        <label for="French">French</label>
-
+                        <label for="French">French</label></div>
                 </form>
                </body>
 <body><br>
     <li>How old are you?
-    <form>
+    <form class="my-form">
+        <div class="form-group">
         <input type="checkbox" id="age 1" name="age 1" Value="Below 18 years"
         <label for="age 1">Below 18 years</label><br>
         <input type="checkbox" id="age 2" name="age 2" Value="18-24 years"
@@ -62,56 +142,95 @@
         <label for="age 3">25-30 years</label><br>
         <input type="checkbox" id="age 4" name="age 4" Value="Above 30 years"
         <label for="age 4">Above 30 years</label>
+    </div>
     </form>
 </body>
 <body><br>
-    <form>
-        <li>State your phone number<br>
-            <ul>
-                <li>
-        <label for="pnumber">Phone number</label><br>
-        <input type="figures"id name="pnumber" name="pnumber" value="phone number"><br>
-        <li>
-        <label for="wnumber">whatsapp number</label><br>
-            <input type="figures"id name="wnumber" name="wnuber" value="whatsapp number"><br>
-    </li>
-</ul>
-</form>
-</body>
 <body><br>
-<form>
+<form class="my-form">
+        <div class="form-group">
     <li>State what you would like to design for you?<br>
         <label for="services"service></label>
-        <input type="text" id name="service" name="service"><br>
+        <input type="text" id name="service" name="service"></div><br>
 </form>
 </body>
+<form class="my-form">
+    <div class="form-group">
 <body>
     <li> whats your choice of mode of delivery?<br>
         <input type="radio" id="oline" name="oline">
         <label for="oline">Online</label><br>
         <input type="radio" id="ofline" name="ofline">
-        <label for="ofline">offline</label><br>
+        <label for="ofline">offline</label></div><br>
     </form>
 </body>
 <body><br>
-<form>
-    <li>Incase of option 6 part two, kindly state your point of delivery address<br>
+    <form class="my-form">
+        <div class="form-group">
+    <li>Incase of option 5 part two, kindly state your point of delivery address<br>
         <label for="Haddress"Home address></label>
-        <input type="text" id name="Haddress" name="Home address"><br>
+        <input type="text" id name="Haddress" name="Home address"></div><br>
 </form>
 </body>
 <body><br>
-    <form>
+    <form class="my-form">
+        <div class="form-group">
         <li>Kindly leave your feedback for further improvements<br>
             <label for="fback"Feedback></label>
-        <input type="text" id name="fback" name="feedback"><br>
+        <input type="text" id name="fback" name="feedback"></div><br>
     </form>
 </body>
+<form class="my-form">
+    <div class="form-group">
+<li>State your phone number<br>
+</div>
+    <ul>
+        <li>
+<label for="pnumber">Phone number</label><br>
+<input type="figures"id name="pnumber" name="pnumber" value="phone number"><br>
+<li>
+<label for="wnumber">whatsapp number</label><br>
+    <input type="figures"id name="wnumber" name="wnuber" value="whatsapp number"></div><br>
+</li>
+</ul>
+</form>
+</body>
 <body><br>
-<input type="submit" value="Submit"
+<input class="button" type="submit" value="Submit" name="">
 </li>
 </ol>
+<style>
+    my-form{
+    padding: 20px;
+}
+my-form .form-group{
+    padding-bottom: 15px;
+}
+</style>
     </form>
+    <style>
+        #contact h4{
+            color:#fff;
+}
+        .my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8PX;
+    height: 10px;
+    width:15%;
+}
+    </style>
+    <style>
+        .button{
+        background-color:#333;
+        color:#fff;
+        Padding:10px 15px;
+        border:none;
+    }
+</style>
+    
+</section>
 </body>
     </head>
 </html>
