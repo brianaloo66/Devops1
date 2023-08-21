@@ -1,0 +1,19 @@
+h3{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+  }
+  body{
+    background-image:url(../background.jpg)
+  }
+  p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aqua;
+  }
+img{
+    width: 300px;
+    height:400px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
