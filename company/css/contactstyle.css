@@ -1,32 +1,21 @@
-.my-form{
-    padding: 20px;
+h2{
+  color:#fff;
 }
-my-form .form-group{
-    padding-bottom: 15px;
+body{
+  background-image:url(../background.jpg)
+
 }
-h4{
-    color:#fff;
+pre{
+  font-size:larger;
+  color:darkgreen;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  list-style-type:decimal;
 }
-        .my-form label{
-    display:block;
+#one{
+  color:aqua;
+  font-size:20px;
 }
-.my-form input[type="text"], .my-form textarea{
-    padding:8PX;
-    height: 10px;
-    width:15%;
+#three{
+  color:aqua;
+  font-size:20px;
 }
-        .button{
-        background-color:#333;
-        color:#fff;
-        Padding:10px 15px;
-        border:none;
-    }
-    body{
-        background-image: url(../background.jpg)
-    }
-    li{
-        color:rgb(6, 92, 3);
-    }
-    p{
-        color:rgb(6, 92, 3);
-    }

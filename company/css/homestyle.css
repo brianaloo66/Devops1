@@ -6,6 +6,8 @@ h1{
   body{
     background-image:url(../background.jpg)
   }
-  p{
+  pre{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    color:aqua;
   }
