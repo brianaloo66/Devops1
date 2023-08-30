@@ -4,7 +4,10 @@ h1{
     font-size:large;
   }
   body{
-    background-image:url(../background.jpg)
+    background-image:url('../background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
   }
   pre{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
